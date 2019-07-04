@@ -1,0 +1,31 @@
+/*
+1. Utwórz nową klasę Countries a w niej dodaj zbiór pozwalający przechowywać
+    pola typu String w kolejności alfoabetycznej.
+2. Dodaj metodę addCountry która pozwoli Ci dodać kraj do zbioru.
+3. Dodaj metodę getAllCountries która pozwoli pobrać wszystkie zapisane kraje.
+4. Zmodyfikuj metodę addCountry aby dodawać tylko kraje które nie zostały wcześniej zapisane.
+5. Dodaj metodę removeCountry która pozwoli usuwać przekazany kraj.
+6. Dodaj metodę updateCountry która przyjmuje 2 wartości:
+    Nazwa kraju który powinien zostać zmodyfikowany
+    poprawiona nazwa kraju
+    np. countries.updateCountry("Polskaa", "Polska");
+*/
+
+/*
+Dodaj klasę Country która będzie reprezentować dany kraj.
+Klasa ta powinna przechowywać pola takie jak nazwa kraju, stolica i liczba ludności.
+Zmodyfikuj klasę Countries tak aby w Secie przechowywane były obiekty klasy Country (zamiast String).
+Dodaj metodę getCountry(name) która zwróci informacjęna temat kraju szukając po nazwie.
+Dodaj metodę getCapitalCity(name) która zwróci informację o kraju szukając po nazwie stolicy.
+Dodaj klasę User która posiada pola imię oraz nazwisko.
+Dodaj do klasy Country pole klasy User które będzie reprezentowało prezydenta danego kraju.
+Dodaj metodęmetodę getCountriesSortedByPopulation która zwróci wszystkie kraje posortowane
+według liczby ludności.Ulepsz swoje sortowanie. Zmodyfikuj poprzednią metodę i zmień jej nazwę na
+getCountriesSortedBy(value). Jeśli w miejscu value przekazane zostanie słowo „population” to zwróć
+posortowane według populacji. Jeśli „country-name” to posortowane po nazwie kraju a jeśli „capital-
+city” to nazwie stolicy.
+Dodaj do swojej metody jeszcze jeden parametr - który będzie definiował czy sortowanie ma być w
+porządku alfabetycznym czy odwróconym (np. getCountriesSortedBy(„population”, „desc”). ASC znaczy
+ciąg alfabetyczny a DESC odwrócony.
+Zamień klucze do sortowania na enumeratory.
+ */

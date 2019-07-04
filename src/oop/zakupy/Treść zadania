@@ -1,0 +1,41 @@
+Zrób program symulujący proste zakupy na targu z warzywami.
+Program ma realizować następujący scenariusz (treść konsoli):
+
+<początek programu>
+Jesteś na targu. Masz pusty koszyk i 10.00zł.
+
+Ile papryk chcesz kupić? 0.70zł sztuka
+2 <wpisano z klawiatury>
+
+Twój koszyk zawiera:
+Papryki: 2
+Pomidory: 0
+
+Ile pomidorów chcesz kupić? 0.50zł sztuka
+1
+
+Twój koszyk zawiera:
+Papryki: 2
+Pomidory: 1
+
+Sprzedawca: Dzień dobry. Za te 3 warzywa należy się 1.90zł
+
+Ile dajesz pieniędzy sprzedawcy?
+2.00
+
+Oto pańska reszta: 0.10zł. Miłego dnia!
+<koniec programu>
+
+Uwaga:
+- można wybrać dowolną liczbę warzyw i zadeklarować, że daje się dowolną kwotę.
+Program ma reagować odpowiednio do sytuacji.
+- W programie jest okazja do zastosowania dziedziczenia
+- Trzeba zastosować listy lub tablice
+- Polimorfizm nie jest wymagany ale można go zastosować dla wygody
+
+Podpowiedzi:
+
+Najpierw stwórz odpowiednie klasy, przynajmniej tyle: Main, Warzywo, Pomidor, Papryka, Koszyk, Czlowiek
+W każdej z klas stwórz potrzebne pola metody i konstruktory np. dodajWarzywo(Warzywo warzywo) w Koszyk
+W klasie Main stwórz wszystkie potrzebne obiekty
+W klasie Main uruchamiaj odpowiednie metody obiektów tak, aby otrzymać efekt w konsoli taki jak wyżej

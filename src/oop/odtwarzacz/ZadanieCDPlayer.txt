@@ -1,0 +1,24 @@
+Stwórz program symulujący pracę odtwarzacza muzycznych płyt CD oraz nagrywarki płyt.
+
+1. Płyta ma przechowywać tablicę Stringów, mogącą zawierać 20 piosenek. Jeśli pozycja na tablicy
+zawiera piosenkę - String oznacza jej tytuł. Jeśli nie zawiera, String ma treść: "NO_SONG".
+Płyta może być wpypalona lub nie (pole boolean). Płyta powinna zawierać 2 konstruktory, jeden
+do tworzenia płyty nie wypalonej, na której w tablicy utworów wszystkie pozycje będą null lub płytę,
+która przyjmie tablicę utworów a brakujące pozycje uzupełni treścią "NO_SONG"
+2. Klasa Nagrywarka ma zawierać jedną metodę - wypalPlyte, która przyjmuje płyte oraz listę utworów
+ i jeśli płyta jest nie wypalona to zwraca wypaloną płytę z utworami z listy a pozostałymi zapełnionymi "NO_SONG"
+3. Klasa Odtwarzacz ma posiadać pola na płytę, wielkość płyty (ilość faktycznych utworów) oraz aktualnie grany utwór
+4. Odtwarzacz ma posiadać metody - wlozPlyte oraz wyjmijPlyte. Nie można włożyć płyty jeśli płyta już jest ani wyjąć płyty
+jeśli jej nie ma. Ponadto metoda wlozPlyte ma odpalić metodę odczytajPlyte oraz odpalić pierwszy utwor. Metoda wyjmijPlyte ma zwracac plyte oraz
+czyścić odpowiednie pola
+5. Metoda odczytajPlyte ma sprawdzic, jesli to mozliwe, ile utworow jest na plycie a także odpalić pierwszy z nich (wywolac metode graj)
+6. metoda graj, oraz wszystkie jej podobne metody mają sprawdzać czy jest płyta oraz czy jest nagrana zanim zaczna dzialac
+. play ma przyjmować inta i jeśli jest utwór z taką liczbą to odpalać go.
+7. dodać metody grajNastepny oraz grajPoprzedni. Pierwsza ma odpalać (wyswietlac i zmieniac pole int) kolejny utwor. Jesli
+zostala wywolana a ustawiony utwor jest ostatni to ma odpalac pierwszy utwor. Podobnie metoda grajPoprzedni, jeśli odpalona
+została na pierwszym utworze to odpali ostatni.
+8. Dodaj metode wyswietlStatus, która informuje o tym ktory utwor jest grany, ile plyta ma utworow i czy w ogole
+jest plyta i ma jakieś utwory
+9. Przetestuj wszystkie metody w klasie Main.
+10. (dodatkowe)  mozna dodac - zmiane glosnosci, mozliwość odtwarzania w petli lub bez, mozliwosc odtwarzania wielu plyt
+    mozliwosc odpalenia radia, wyszukiwania radia po wpisaniu stacji lub automatycznie, programowania stacji
